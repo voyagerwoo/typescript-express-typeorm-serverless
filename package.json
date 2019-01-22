@@ -1,0 +1,39 @@
+{
+  "name": "typescript-express-typeorm-serverless",
+  "version": "0.0.1",
+  "description": "typescript-express-typeorm-serverless",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "voyagerwoo",
+    "email": "voyager.woo@gmail.com"
+  },
+  "tags": [
+    "serverless",
+    "aws-lambda",
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example",
+    "typeorm-express-example"
+  ],
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/node": "^9.6.5",
+    "typescript": "^2.8.1",
+    "serverless-offline": "^4.1.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "^1.18.2",
+    "mysql": "^2.15.0",
+    "sql.js": "^0.5.0",
+    "typeorm": "^0.2.0",
+    "aws-serverless-express": "^3.3.5",
+    "serverless-http": "latest"
+  },
+  "scripts": {
+    "dev": "tsc && node src/www.js"
+  }
+}

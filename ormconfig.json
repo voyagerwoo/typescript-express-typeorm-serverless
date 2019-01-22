@@ -1,0 +1,18 @@
+{
+  "type": "sqljs",
+  "synchronize": true,
+  "entities": [
+    "src/models/entity/*.js"
+  ],
+  "subscribers": [
+    "src/models/subscriber/*.js"
+  ],
+  "migrations": [
+    "src/models/migration/*.js"
+  ],
+  "cli": {
+    "entitiesDir": "src/models/entity",
+    "migrationsDir": "src/models/migration",
+    "subscribersDir": "src/models/subscriber"
+  }
+}
